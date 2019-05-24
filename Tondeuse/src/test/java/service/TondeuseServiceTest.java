@@ -11,7 +11,8 @@ public class TondeuseServiceTest {
 
 	@Test
 	public void executionProgrammeeTest() {
-		String url = "D:/Profiles/regarip/Desktop/Temp/Tondeuse/src/main/resources/input.txt";
+		// Modifier l'url ici
+		String url = "D:/monDossier/Tondeuse/src/main/resources/input.txt";
 		service.executionProgramme(url);
 	}
 	
